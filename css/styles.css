@@ -1,0 +1,59 @@
+/* Fix My Divs!!! 
+div,img{
+    border: dashed 1px gray;
+    padding:1px;
+}
+.container {
+    border: solid 1px green;
+    padding:1px;
+}
+.col, .col-md-2, .col-md-3, .col-md-4{
+    border: solid 1px rgb(4, 0, 255);
+    padding:1px;
+}
+.row {
+    border: solid 1px red;
+    padding:1px;
+} */
+body {
+  font-family: "Open Sans", sans-serif;   
+  background-color: #ececec; 
+}
+
+.jumbotron {
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+  background-image: radial-gradient(circle, #ececec, #d9deeb, #bcd3e9, #95cae1, #6ac2d1, #54b9c2, #3fb0b2, #2aa7a1, #219d99, #189391, #0d8a88, #008080); 
+} 
+
+.navbar {
+  background-color: #35B5AC;
+  font-weight: bold;
+  position: sticky;
+}
+
+.site-footer {
+  background-image: linear-gradient(#35B5AC, #ececec);
+  padding: 15px;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Lobster", cursive; 
+}
+
+.boxStyle {
+   background-color: rgba(255, 255, 255, 0.829);
+   border: solid #35B5AC;
+   margin: 10px 5px;
+   padding: 10px;
+   border-radius: 7px;
+  }
