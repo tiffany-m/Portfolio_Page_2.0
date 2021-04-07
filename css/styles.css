@@ -15,6 +15,7 @@ div,img{
     border: solid 1px red;
     padding:1px;
 } */
+
 body {
   font-family: "Open Sans", sans-serif;   
   background-color: #ececec; 
@@ -24,7 +25,8 @@ body {
   text-align: center;
   margin: 0;
   padding: 15px;
-  background-image: radial-gradient(circle, #ececec, #d9deeb, #bcd3e9, #95cae1, #6ac2d1, #54b9c2, #3fb0b2, #2aa7a1, #219d99, #189391, #0d8a88, #008080); 
+  width: 100%;
+  background-image: radial-gradient(circle, #ececec, #d9deeb, #bcd3e9, #95cae1, #6ac2d1, #54b9c2, #3fb0b2, #2aa7a1, #219d99, #58acaa, #0d8a88, #008080); 
 } 
 
 .navbar {
@@ -36,9 +38,8 @@ body {
 .site-footer {
   background-image: linear-gradient(#35B5AC, #ececec);
   padding: 15px;
-  position: fixed;
-  width: 100%;
   bottom: 0;
+  width: 100%;
 }
 
 h1 {
@@ -59,4 +60,19 @@ h1, h2, h3, h4 {
    margin: 10px 5px;
    padding: 10px;
    border-radius: 7px;
-  }
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #35B5AC;
+  border-radius: 20px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+}
